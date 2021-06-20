@@ -1,7 +1,6 @@
 alert("welcome to The online libarary  ")
 
 var solve = prompt("please do the puzzle to you can access our website: 1 + 1 = ")
-var puzzle;
 function puzzle(){
 
 if(solve == 2){
@@ -27,7 +26,6 @@ document.write("<img src='https://orion-uploads.openroadmedia.com/sm_f7e651-tolk
 
 var section = prompt("What is your favorite section From these section: Book , Manga , Scientific Books , Literary Books?")
 
-var fav ;
 function fav (){
 if(section == "Book" ){
  alert("we have your favorite books  ")
