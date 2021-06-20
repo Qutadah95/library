@@ -1,25 +1,22 @@
-
 alert("welcome to The online libarary  ")
-var solve = prompt("please do the puzzle to you can access our website: 1 + 1 = ")
 
+var solve = prompt("please do the puzzle to you can access our website: 1 + 1 = ")
 var puzzle;
-function puzzle (){
-  if(solve == 2){
+function puzzle(){
+
+if(solve == 2){
   alert("thanks for solve the puzzle enjoy in the website")
 }
 else{
   alert("Do it again")
   
 }
-
-
-}
-console.log( puzzle());
-
 while (solve !=2)
 {solve = prompt("please do the puzzle to you can access our website: 1 + 1 = ")
 
 }
+}
+puzzle()
 
  
 var num = prompt("how many time you want to show a picture of our most viewed books  ")
@@ -30,8 +27,8 @@ document.write("<img src='https://orion-uploads.openroadmedia.com/sm_f7e651-tolk
 
 var section = prompt("What is your favorite section From these section: Book , Manga , Scientific Books , Literary Books?")
 
-var fav;
-function fav(){
+var fav ;
+function fav (){
 if(section == "Book" ){
  alert("we have your favorite books  ")
 
@@ -57,4 +54,4 @@ else{
 }
 
 }
-console.log(fav());
+fav();
